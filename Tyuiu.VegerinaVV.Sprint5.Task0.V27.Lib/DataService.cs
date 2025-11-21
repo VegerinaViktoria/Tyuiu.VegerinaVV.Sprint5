@@ -10,7 +10,7 @@ namespace Tyuiu.VegerinaVV.Sprint5.Task0.V27.Lib
             double y = Math.Pow((x - 1), (3 * x + 1));
             y = Math.Round(y, 3);
             File.WriteAllText(path, Convert.ToString(y));
-            return path;
+            return path; 
         }
     }
 }
