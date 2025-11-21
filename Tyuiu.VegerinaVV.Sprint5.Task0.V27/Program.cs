@@ -17,7 +17,7 @@ internal class Program
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
         Console.WriteLine("* Дано выражение вычислить его значение при x = 3, результат сохранить в  *");
         Console.WriteLine("* текстовый файл OutPutFileTask0.txt и вывести на консоль. Округлить до   *");
-        Console.WriteLine("* трёх знаков после запятой                                               *");
+        Console.WriteLine("* трёх знаков после запятой.                                              *");
         Console.WriteLine("*                                                                         *");
 
         int x = 3;

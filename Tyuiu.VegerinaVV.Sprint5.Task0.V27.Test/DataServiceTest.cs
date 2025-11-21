@@ -6,7 +6,7 @@ namespace Tyuiu.VegerinaVV.Sprint5.Task0.V27.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void CheckExistsFile()
+        public void CheckedExistsFile()
         {
             string path = @"C:\Users\vvvik\AppData\Local\Temp\OutputFileTask0.txt";
             FileInfo fileInfo = new FileInfo(path);
