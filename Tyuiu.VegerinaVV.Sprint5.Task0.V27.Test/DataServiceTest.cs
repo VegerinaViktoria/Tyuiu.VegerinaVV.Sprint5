@@ -8,7 +8,7 @@ namespace Tyuiu.VegerinaVV.Sprint5.Task0.V27.Test
         [TestMethod]
         public void CheckedExistsFile()
         {
-            string path = @"C:\Users\vvvik\AppData\Local\Temp\OutputFileTask0.txt";
+            string path = @"C:\Users\vvvik\AppData\Local\Temp\OutPutFileTask0.txt";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;
