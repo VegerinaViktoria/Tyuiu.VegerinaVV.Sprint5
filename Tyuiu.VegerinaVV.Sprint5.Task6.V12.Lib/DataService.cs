@@ -14,7 +14,7 @@ namespace Tyuiu.VegerinaVV.Sprint5.Task6.V12.Lib
                 {
                     for (int i = 0; i < line.Length; i++)
                     {
-                        if (line[i]=='н' && line[i+1] == 'н')
+                        if (line[i] =='н' && line[i+1] == 'н')
                         {
                             count++;
                         }
