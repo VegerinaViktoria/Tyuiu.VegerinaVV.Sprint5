@@ -17,9 +17,9 @@ namespace Tyuiu.VegerinaVV.Sprint5.Task7.V13.Lib
             }
 
             string strLine = "";
-            using (StreamReader reader= new StreamReader(path))
+            using (StreamReader reader = new StreamReader(path))
             {
-                string line;
+                string? line;
                 while ((line = reader.ReadLine()) != null)
                 {
                     for (int i = 0; i < line.Length; i++)
